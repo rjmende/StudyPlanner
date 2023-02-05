@@ -12,10 +12,15 @@
         android:theme="@style/Theme.StudyPlanner"
         tools:targetApi="31">
         <activity
-            android:name=".CourseDetails"
-            android:label="Course Details"
-            android:parentActivityName=".UI.CoursesList"
+            android:parentActivityName=".UI.TermList"
+            android:name=".UI.TermList"
+            android:label="TERMS"
             android:exported="false" />
+        <activity
+            android:name=".CourseDetails"
+            android:exported="false"
+            android:label="Course Details"
+            android:parentActivityName=".UI.CoursesList" />
         <activity
             android:name=".UI.CoursesList"
             android:exported="false"
